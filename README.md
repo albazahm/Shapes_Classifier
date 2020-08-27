@@ -25,8 +25,9 @@ The notebook - Shapes Dataset.ipynb - will explore the handling and preprocessin
 The trained model is saved and available as "shapes_classifier_nn". To use the trained model for transfer learning or other purposes, the steps below can be taken:
 1. Download the shapes_classifier_nn or clone the GitHub repository.
 2. Install and/or import the Keras library.
-3. Load the model with the command: model = keras.models.load_model(PATH_TO_SAVED_MODEL)
-4. You may view the model architecture using the command: model.summary()
+3. Load the model with the command: 
+    `model = keras.models.load_model(PATH_TO_SAVED_MODEL)`
+4. You may view the model architecture using the command: `model.summary()`
 5. The model's predict and evaluate methods can be used as normal.
 
 *Note: The model's parameters are set to be non-trainable. Model layers can be removed with the command: model.pop()*
